@@ -1,5 +1,6 @@
 "use client"
 import Image from "next/image"
+import Link from "next/link"
 const NavBar = () => {
   return (
    
@@ -11,7 +12,7 @@ dark:bg-green-700">
   <a  className="flex items-center 
   space-x-3 rtl:space-x-reverse">
       
-      <Image src="\LivrosIcone.svg" className="rounded" width={40} height={40} alt="Livraria Logo"
+      <Image src="assets\LivrosIcone.svg" className="rounded" width={40} height={40} alt="Livraria Logo"
        />
       <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Livraria</span>
   </a>
@@ -99,12 +100,13 @@ dark:bg-green-700">
             Sobre</a>
         </li>
         <li className="p-1">
-          <a href="#" className="block py-2  text-gray-900 rounded
+          <Link href="/login"
+          className="block py-2  text-gray-900 rounded
            hover:bg-gray-100 md:hover:bg-transparent
             md:hover:text-blue-700 md:p-0 dark:text-white
            md:dark:hover:text-blue-500 dark:hover:bg-gray-700
             dark:hover:text-white md:dark:hover:bg-transparent 
-            dark:border-gray-700">Login</a>
+            dark:border-gray-700">Login </Link>
         </li>
       </ul>
     </div>
