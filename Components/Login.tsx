@@ -27,7 +27,7 @@ const Login = () => {
                   </div>
                   <div>
                       <label htmlFor="password" className="block mb-2 text-sm font-medium 
-                      text-gray-900 dark:text-white">Password</label>
+                      text-gray-900 dark:text-white">Senha</label>
                       <input type="password" name="password" id="password" placeholder="••••••••" className="bg-gray-50 border 
                       border-black text-gray-900 rounded-lg focus:ring-black focus:border-primary-600 
                       block w-full p-2.5 dark:bg-green-700 dark:border-gray-600 dark:placeholder-gray-400 
@@ -42,17 +42,17 @@ const Login = () => {
                             dark:ring-offset-gray-800"></input>
                           </div>
                           <div className="ml-3 text-sm">
-                            <label htmlFor="remember" className="text-gray-500 dark:text-gray-300">Remember me</label>
+                            <label htmlFor="remember" className="text-gray-500 dark:text-gray-300">Lembrar</label>
                           </div>
                       </div>
-                      <a href="#" className="text-sm font-medium text-primary-600 hover:underline dark:text-primary-500">Forgot password?</a>
+                      <a href="#" className="text-sm font-medium text-primary-600 hover:underline dark:text-primary-500">Esqueci a senha</a>
                   </div>
                   <button type="submit" className="w-full text-white bg-primary-600 hover:bg-green-700 
                   focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg 
                   text-sm px-5 py-2.5 text-center dark:bg-green-600 dark:hover:bg-primary-700 
-                  dark:focus:ring-primary-800">Sign in</button>
+                  dark:focus:ring-primary-800">Entrar</button>
                   <p className="text-sm font-light text-gray-500 dark:text-gray-400">
-                      Dont have an account yet? <a href="#" className="font-medium text-primary-600 hover:underline dark:text-primary-500">Sign up</a>
+                      Ainda não tem uma conta? <a href="#" className="font-medium  hover:underline dark:text-white">Cadastrar</a>
                   </p>
               </form>
           </div>
